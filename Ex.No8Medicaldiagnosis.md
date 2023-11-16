@@ -14,7 +14,8 @@ Write a Prolog program to build a medical Diagnosis Expert System.
         
 
 ### Program:
-```hypothesis(Patient,german_measles) :-
+```
+hypothesis(Patient,german_measles) :-
 	symptom(Patient,fever),
 	symptom(Patient,headache),
 	symptom(Patient,runny_nose),
